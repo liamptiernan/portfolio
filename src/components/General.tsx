@@ -1,6 +1,6 @@
 export function General() {
   return (
-    <section className="container pl-16 pr-4 pb-25 mx-auto my-auto h-fit w-[80%]">
+    <section className="container sm:pl-16 pt-14 pr-4 pb-4 sm:pb-25 mx-auto my-auto h-fit w-[80%]">
       <h1 className="text-6xl font-bold mb-4 text-lime-500">Liam Tiernan</h1>
       <h2 className="text-4xl mb-2">Full Stack Software Engineer</h2>
       <p className="font-mono text-sm">Python | Typescript | React | AWS</p>

@@ -4,9 +4,9 @@ import { General } from "./components/General";
 export default function Home() {
   return (
     <div>
-      <main className="flex h-[calc(100vh-45px)]">
+      <main className="flex flex-col sm:flex-row xl:h-[calc(100vh-45px)]">
         <General />
-        <div className="h-[80vh] w-[3px] bg-gray-300 my-auto" />
+        <div className="hidden sm:block h-[80vh] w-[3px] bg-gray-300 my-auto" />
         <Experience />
       </main>
       <Footer />
