@@ -10,11 +10,11 @@ function TechStack({ items }: { items: string[] }) {
 
 export function Experience() {
   return (
-    <section className="container mx-auto mt-16 px-4 overflow-scroll max-h-screen">
-      <h2 className="text-3xl font-bold mb-2 px-2 text-lime-700">
+    <section className="container mx-auto mt-8 sm:mt-16 px-4 w-[95%] sm:w-full">
+      <h2 className="text-3xl font-bold mb-2 px-6 sm:px-2 text-lime-700">
         Key Experience
       </h2>
-      <div className="grid max-w-3xl">
+      <div className="grid max-w-3xl sm:overflow-scroll sm:max-h-[calc(100vh-100px)] lg:max-h-[calc(100vh-175px)]">
         <div className="p-6 rounded-lg">
           <h3 className="text-xl font-bold">
             Technical Lead | <span className="text-lime-700">Norstella</span>
